@@ -1,6 +1,6 @@
 require 'pry'
 def consolidate_cart(cart)
-  cart
+  cart.each do |k, v|
 end
 
 def apply_coupons(cart, coupons)
